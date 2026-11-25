@@ -16,6 +16,10 @@ Workflow definitions, node configuration, webhook payloads and external response
 - Defer arbitrary user code until a separately isolated, resource-constrained runtime is designed. Node.js vm alone is not an adequate security boundary.
 - Require explicit approval and authorized integration access before automating real inventory adjustments or other consequential writes.
 
+## Managed service readiness
+
+Before any public hosted pilot, validate tenant separation across API queries, workers, caches, event streams and exports. Implement scoped credentials, secret rotation, egress restrictions, resource quotas, fair queueing, monitoring, incident response and recovery exercises. Document data retention, account deletion and privacy obligations, including assessment of Brazil's LGPD where applicable. Use synthetic data for public demos; do not connect employer systems without explicit authorization.
+
 ## Reporting
 
 Do not publish secrets, exploit payloads containing personal data or sensitive production logs in public issues. Use GitHub private vulnerability reporting if enabled; otherwise contact the repository maintainer privately before public disclosure.

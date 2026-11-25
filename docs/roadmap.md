@@ -26,3 +26,15 @@ Deferred: arbitrary user-written code, general loops, parallel joins, connector 
 ## Release discipline
 
 Use small, reviewable commits. Keep main deployable once the runtime exists. Run relevant checks before merging runtime changes. Update documentation with implemented behavior, and label proposed features explicitly. Never publish real credentials or workplace inventory data in demonstrations.
+
+## Hosted product track (after core milestones)
+
+| Gate | Deliverable | Exit criteria |
+| --- | --- | --- |
+| A | Community release | Reproducible self-hosted installation, source availability and documented limitations |
+| B | Cloud private pilot | Verified tenant isolation, quotas, usage accounting, encrypted secrets, monitoring, backup restoration and abuse controls |
+| C | Paid beta | Validated customer demand, billing reconciliation, cancellation, data export/deletion, support procedures and legal/privacy review |
+| D | General availability | Measured reliability, operating costs and support capacity; production readiness review |
+| E | Enterprise | Reviewed alternative licensing, contracts and customer requirements |
+
+These gates are separate from the original 12 engineering milestones. Do not start paid production hosting solely because the editor is complete. See [SaaS strategy](saas.md).

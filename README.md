@@ -1,5 +1,7 @@
 # FlowEngine
 
+[Português (Brasil)](README.pt-BR.md) · [AGPL-3.0-only](LICENSE)
+
 **Build workflows. Connect systems. Automate everything.**
 
 FlowEngine is an open-source workflow automation platform designed around a visual editor, an event-driven execution engine, asynchronous processing and extensible integrations.
@@ -9,6 +11,16 @@ FlowEngine is an open-source workflow automation platform designed around a visu
 ## Product vision
 
 Build reusable automations by connecting triggers, actions and conditions on a visual canvas. Inspect execution results, handle failures and integrate external services without writing a complete application.
+
+## Product model
+
+| Edition | Direction |
+| --- | --- |
+| Community | Open-source, self-hosted workflow automation |
+| Cloud | Planned managed SaaS with subscriptions, backups and operational support |
+| Enterprise | Potential negotiated alternative licensing, subject to rights and legal review |
+
+Community is the foundation for the hosted product. Billing, enterprise licensing and hosted services are not available yet. Initial market validation will focus on practical spreadsheet and business-process automations, with synthetic demonstration data.
 
 ## Planned capabilities
 
@@ -51,6 +63,8 @@ The diagram describes the target architecture, not deployed services.
 - [Development roadmap](docs/roadmap.md)
 - [Security design](docs/security.md)
 - [Contributing](CONTRIBUTING.md)
+- [Licensing policy](docs/licensing.md)
+- [SaaS product strategy](docs/saas.md)
 
 ## Getting started
 
@@ -58,4 +72,4 @@ Executable installation instructions will be published once the initial applicat
 
 ## License
 
-[MIT](LICENSE).
+New original project material is licensed under the [GNU Affero General Public License v3.0 only (AGPL-3.0-only)](LICENSE), unless explicitly stated otherwise. Previously granted MIT rights remain in effect for the earlier material; see [legacy notice](LICENSES/MIT-legacy.txt) and [licensing policy](docs/licensing.md). Third-party components retain their own licenses. Copyright (c) 2026 mateusfaria854-bit.
